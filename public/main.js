@@ -50,7 +50,7 @@ function Ball(x, y, dx, dy, radius, color) {
 
 this.update =function() {
     if(this.y + this.radius +this.dy> canvas.height){
-        this.dy = - this.dy*0.9;
+        this.dy = - this.dy*(Math.random()+0.5)*1.1;
     }
     else {
         this.dy +=gravity;
