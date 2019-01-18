@@ -1,6 +1,6 @@
 # Toying-With-Canvas
 
-In a bid to integrate
+In a bid to integrate physics and code, I've made a small scale canvas page which generates a few hundred circles and makes them bounce all over the place while under the influence of gravity. 
 
 ## How did I do this? 
 
